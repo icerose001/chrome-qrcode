@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>网页二维码</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <div class="loading" id="loading">
+            <div class="spinner"></div>
+        </div>
+        <div id="qrcode-container">
+            <div id="qrcode"></div>
+        </div>
+        <div id="site-info">
+            <img id="favicon" src="" alt="">
+            <div id="site-name"></div>
+        </div>
+    </div>
+    <script src="lib/qrcode.min.js"></script>
+    <script src="popup.js"></script>
+</body>
+</html> 
